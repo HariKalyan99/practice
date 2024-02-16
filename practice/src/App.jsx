@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
 import ProductList from './components/ProductList'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <ProductList />
     <Sidebar displaySidebar={displaySidebar}/>
     </section>
+    <Footer />
     </>
   )
 }
